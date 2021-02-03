@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- created and
+projection by ola wills -->
+<html>
+    <head>
+        <title> Building Pop ups</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width = devcice-width, initial-scale= 1.0">
+        <link rel="stylesheet" href="POPS.CSS">
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    </head>
+    <body>
+
+        <header id="home">
+            <nav>
+                <a href="#" class="active">AVM NETWORK</a>
+                <a href="#Home"><img src="user2.png" alt="User image"></a>
+                
+                <div class="menu-toggle">
+
+                    <ul>
+                        <li>
+                            <a href="#Home"class="active">HOME</a>
+                            <a href="#index.html">SERVICES</a>
+                            <a href="#index.html">ABOUT</a>
+                            <a href="#index.html">CONTACT ME</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </header>
+       
+        <div class="contanier">
+            <h1> Login page</h1>
+            <a href="#" class="Button">Login</a>
+        </div>
+
+            <div class="popup">
+                <div class="popup-content">
+                    <img src="close.png" alt="close" class="close">
+                    <img src="user2.png" alt="user">
+                    <input type="text" placeholder="Username">
+                    <input type="password" placeholder="password">
+                    <a href="#" class="button">Login</a>
+        </div>
+            </div>
+     <!-- <script src="BUILDING POPS UPS.JS"></script> -->
+     <script>
+    document.getElementById("button").addEventListener("click",function(){
+        document.querySelector(".popup").style.display ="flex";
+}}
+
+document.querySelector(".close").addEventListener("click",function(){
+    document.querySelector(".popup").style.display = "none";
+}}
+     </script>
+    </body>
+</html>
